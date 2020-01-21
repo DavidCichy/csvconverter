@@ -20,6 +20,7 @@ public class ConverterApplication {
         }
 
     }
+
     public void test(){
         System.out.println("Test!");
     }
@@ -31,6 +32,6 @@ public class ConverterApplication {
         String output = new String();
         while ((st = br.readLine()) != null)
         output += st;
+        return output;
     }
-}
 }
